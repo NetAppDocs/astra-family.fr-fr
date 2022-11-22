@@ -10,7 +10,8 @@ summary: 'Astra, un service de gestion du cycle de vie des données applicatives
 :imagesdir: ./media/
 
 
-La gamme NetApp Astra fournit des fonctionnalités de gestion des données d'application et de stockage pour les applications cloud. 
+[role="lead"]
+La gamme NetApp Astra fournit des fonctionnalités de gestion des données d'application et de stockage pour les applications cloud.
 
 Les offres d'Astra sont notamment :
 
@@ -23,13 +24,6 @@ Les offres d'Astra sont notamment :
 * *Astra Trident* : utilisez le provisionnement et la gestion du stockage conformes à la norme CSI (Container Storage interface) pour les workloads Kubernetes avec les fournisseurs de stockage NetApp.
 
 
-[cols="1h,2d"]
-|===
-| Fonction | Solution NetApp 
-
-
-| Gestion | Astra Control Service Astra Control Centre de contrôle Trident 
-|===
 
 
 == Contrôle Astra
@@ -95,7 +89,9 @@ Mêmes fonctionnalités sur les deux plateformes, sans exception pour le stockag
 
 
 | Qu'est-ce que le système back-end prend en charge ? | Offres de services clouds NetApp  a| 
-Systèmes NetApp ONTAP AFF et FAS
+* Systèmes NetApp ONTAP AFF et FAS
+* Système back-end Cloud Volumes ONTAP
+
 
 |===
 
