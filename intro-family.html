@@ -450,7 +450,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-11-22 20:10:29 +0000">11/22/2022</time>
+    <time datetime="2022-12-22 21:59:53 +0000">12/22/2022</time>
     
   
 
@@ -526,9 +526,6 @@
 </li>
 </ul>
 </div>
-<div class="paragraph">
-<p>Astra Control surveille en permanence votre calcul pour les changements d&#8217;état, il est donc conscient de toutes les nouvelles applications que vous ajoutez en chemin.</p>
-</div>
 </div>
 <div class="sect2">
 <h3 id="modèles-de-déploiement">Modèles de déploiement</h3>
@@ -538,7 +535,7 @@
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Astra Control Service</strong> : service géré par NetApp qui permet la gestion des données intégrant la cohérence applicative de clusters Kubernetes dans Google Kubernetes Engine (GKE) et Azure Kubernetes Service (AKS).</p>
+<p><strong>Astra Control Service</strong> : service géré par NetApp qui permet la gestion des données intégrant la cohérence applicative de clusters Kubernetes dans Amazon Web Services (AWS), Azure Kubernetes Service (AKS) et Google Kubernetes Engine (GKE).</p>
 <div class="paragraph">
 <p><a href="https://docs.netapp.com/us-en/astra/index.html" target="_blank" rel="noopener">"Documentation relative au service après-vente Astra Control"</a></p>
 </div>
@@ -567,35 +564,76 @@
 <tbody>
 <tr>
 <th class="tableblock halign-left valign-top"><p class="tableblock">Comment est-elle proposée ?</p></th>
-<td class="tableblock halign-left valign-top"><p class="tableblock">En tant que service cloud entièrement géré de NetApp</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>En tant que service cloud entièrement géré de NetApp</p>
+</div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>En tant que logiciel que vous téléchargez, installez et gérez</p>
 </div></div></td>
 </tr>
 <tr>
 <th class="tableblock halign-left valign-top"><p class="tableblock">Où est-il hébergé ?</p></th>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Dans le cloud public de votre choix</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Dans le cloud public de votre choix</p>
+</div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>Sur le cluster Kubernetes fourni</p>
 </div></div></td>
 </tr>
 <tr>
 <th class="tableblock halign-left valign-top"><p class="tableblock">Comment est-elle mise à jour ?</p></th>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Géré par NetApp</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Géré par NetApp</p>
+</div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>Vous gérez toutes les mises à jour</p>
 </div></div></td>
 </tr>
 <tr>
-<th class="tableblock halign-left valign-top"><p class="tableblock">Quelles sont les fonctionnalités de gestion des données applicatives ?</p></th>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Mêmes fonctionnalités sur les deux plateformes, sans exception pour le stockage interne ou les services externes</p></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>Mêmes fonctionnalités sur les deux plateformes, sans exception pour le stockage interne ou les services externes</p>
-</div></div></td>
-</tr>
-<tr>
 <th class="tableblock halign-left valign-top"><p class="tableblock">Qu&#8217;est-ce que le système back-end prend en charge ?</p></th>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Offres de services clouds NetApp</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="ulist">
+<ul>
+<li>
+<p>Amazon Web Services :</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Amazon EBS</p>
+</li>
+<li>
+<p>Amazon FSX pour NetApp ONTAP</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Google Cloud :</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Disque persistant Google</p>
+</li>
+<li>
+<p>NetApp Cloud Volumes Service</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Microsoft Azure :</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Disques gérés Azure</p>
+</li>
+<li>
+<p>Azure NetApp Files</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="ulist">
 <ul>
 <li>
