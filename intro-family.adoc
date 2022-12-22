@@ -45,15 +45,13 @@ Astra Control offre des fonctionnalités stratégiques pour la gestion du cycle 
 * Utilisez une interface utilisateur ou une API pour implémenter vos workflows de sauvegarde et de migration
 
 
-Astra Control surveille en permanence votre calcul pour les changements d'état, il est donc conscient de toutes les nouvelles applications que vous ajoutez en chemin.
-
 
 
 === Modèles de déploiement
 
 Astra Control est disponible dans deux modèles de déploiement :
 
-* *Astra Control Service* : service géré par NetApp qui permet la gestion des données intégrant la cohérence applicative de clusters Kubernetes dans Google Kubernetes Engine (GKE) et Azure Kubernetes Service (AKS).
+* *Astra Control Service* : service géré par NetApp qui permet la gestion des données intégrant la cohérence applicative de clusters Kubernetes dans Amazon Web Services (AWS), Azure Kubernetes Service (AKS) et Google Kubernetes Engine (GKE).
 +
 https://docs.netapp.com/us-en/astra/index.html["Documentation relative au service après-vente Astra Control"^]
 
@@ -63,32 +61,53 @@ https://docs.netapp.com/us-en/astra-control-center/["Documentation Astra Control
 
 
 
-[cols="1h,2d,2a"]
+[cols="1h,2a,2a"]
 |===
 |  | Service Astra Control | Centre de contrôle Astra 
 
 
-| Comment est-elle proposée ? | En tant que service cloud entièrement géré de NetApp  a| 
+| Comment est-elle proposée ?  a| 
+En tant que service cloud entièrement géré de NetApp
+ a| 
 En tant que logiciel que vous téléchargez, installez et gérez
 
 
 
-| Où est-il hébergé ? | Dans le cloud public de votre choix  a| 
+| Où est-il hébergé ?  a| 
+Dans le cloud public de votre choix
+ a| 
 Sur le cluster Kubernetes fourni
 
 
 
-| Comment est-elle mise à jour ? | Géré par NetApp  a| 
+| Comment est-elle mise à jour ?  a| 
+Géré par NetApp
+ a| 
 Vous gérez toutes les mises à jour
 
 
 
-| Quelles sont les fonctionnalités de gestion des données applicatives ? | Mêmes fonctionnalités sur les deux plateformes, sans exception pour le stockage interne ou les services externes  a| 
-Mêmes fonctionnalités sur les deux plateformes, sans exception pour le stockage interne ou les services externes
+| Qu'est-ce que le système back-end prend en charge ?  a| 
+* Amazon Web Services :
++
+** Amazon EBS
+** Amazon FSX pour NetApp ONTAP
+
+
+* Google Cloud :
++
+** Disque persistant Google
+** NetApp Cloud Volumes Service
+
+
+* Microsoft Azure :
++
+** Disques gérés Azure
+** Azure NetApp Files
 
 
 
-| Qu'est-ce que le système back-end prend en charge ? | Offres de services clouds NetApp  a| 
+ a| 
 * Systèmes NetApp ONTAP AFF et FAS
 * Système back-end Cloud Volumes ONTAP
 
