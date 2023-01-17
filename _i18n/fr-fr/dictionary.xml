@@ -24,7 +24,6 @@
   <block id="db1905d057dd6fde6f8b7bd6afe60e41" category="paragraph">Astra Control est disponible dans deux modèles de déploiement :</block>
   <block id="ef22ff17624b3faeed227ce5c717eb5f" category="inline-link">Documentation relative au service après-vente Astra Control</block>
   <block id="6762180adf48075df77efbf264e982ec" category="paragraph"><block ref="6762180adf48075df77efbf264e982ec" category="inline-link-rx"></block></block>
-  <block id="ddbf9f0ee6e908772df862b9cb9312d3" category="list-text">*Astra Control Center* : logiciel autogéré qui assure une gestion des données compatible avec les applications de clusters Kubernetes exécutés dans votre environnement sur site.</block>
   <block id="3a4b2c66d4bdac6ce0e3340c71a39eda" category="inline-link">Documentation Astra Control Center</block>
   <block id="281db70ca8dfcac9ebe6166029058548" category="paragraph"><block ref="281db70ca8dfcac9ebe6166029058548" category="inline-link-rx"></block></block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="cell"></block>
@@ -32,10 +31,8 @@
   <block id="9c634046a90a62883b122e76b9afcef2" category="cell">Centre de contrôle Astra</block>
   <block id="72fa0b165b80dd423c3cca71e56e6e85" category="cell">Comment est-elle proposée ?</block>
   <block id="f7b1d494056b7a9289f329a721d9f318" category="cell">En tant que service cloud entièrement géré de NetApp</block>
-  <block id="aff53210beade5ba79414ae13eb6b73d" category="paragraph">En tant que logiciel que vous téléchargez, installez et gérez</block>
   <block id="7cae1429bdc4131db46365e8fc893a77" category="cell">Où est-il hébergé ?</block>
   <block id="7ab48d8d90e46b91aa73c1832b7681f9" category="cell">Dans le cloud public de votre choix</block>
-  <block id="6cc0042ffe94d2cdea2bf7b80705f4ef" category="paragraph">Sur le cluster Kubernetes fourni</block>
   <block id="a564f860d9dd9df279c4ea80b08d026a" category="cell">Comment est-elle mise à jour ?</block>
   <block id="b2929741e98ca2c366d8d7dfda36e2b9" category="cell">Géré par NetApp</block>
   <block id="091f846d60c1037c90ba7580f37ef9fa" category="paragraph">Vous gérez toutes les mises à jour</block>
@@ -94,4 +91,8 @@
   <block id="4bce0cadbd95655804d72e0df4ac6d7b" category="list-text">Microsoft Azure :</block>
   <block id="79c9c43a409053927cc323915dbf1c06" category="list-text">Disques gérés Azure</block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="list-text">Azure NetApp Files</block>
+  <block id="5ec023826f488423d711ac0df1d9f4c5" category="list-text">Répliquez vos applications sur un système distant grâce à la technologie NetApp SnapMirror</block>
+  <block id="a3b55d525a2386049955089c958fb85f" category="list-text">*Astra Control Center* : logiciel autogéré qui assure une gestion des données compatible avec les applications de clusters Kubernetes exécutés dans votre environnement sur site. Astra Control Center peut également être installé avec un système back-end de stockage NetApp Cloud Volumes ONTAP sur Amazon Web Services, Microsoft Azure et Google Cloud Platform (GCP).</block>
+  <block id="3f30cc087061fe529429ba0e8d0ff810" category="paragraph">Logiciels que vous téléchargez, installez et gérez</block>
+  <block id="dccc75a2a0dee41efca95ab5f6a92a91" category="paragraph">Bring your own cluster Kubernetes</block>
 </blocks>
