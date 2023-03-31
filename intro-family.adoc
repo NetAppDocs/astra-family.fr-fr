@@ -43,7 +43,7 @@ Astra Control offre des fonctionnalités stratégiques pour la gestion du cycle 
 * Cloner une application de la phase intermédiaire à la production
 * Répliquez vos applications sur un système distant grâce à la technologie NetApp SnapMirror
 * Visualiser l'état de santé et de protection des applications
-* Utilisez une interface utilisateur ou une API pour implémenter vos workflows de sauvegarde et de migration
+* Implémentation de vos workflows de sauvegarde et de migration à l'aide d'une interface utilisateur web ou d'une API
 
 
 
@@ -52,7 +52,7 @@ Astra Control offre des fonctionnalités stratégiques pour la gestion du cycle 
 
 Astra Control est disponible dans deux modèles de déploiement :
 
-* *Astra Control Service* : service géré par NetApp qui permet la gestion des données intégrant la cohérence applicative de clusters Kubernetes dans Amazon Web Services (AWS), Azure Kubernetes Service (AKS) et Google Kubernetes Engine (GKE).
+* *Astra Control Service* : service géré par NetApp qui offre une gestion des données compatible avec les applications des clusters Kubernetes dans des environnements de plusieurs fournisseurs cloud ainsi que des clusters Kubernetes autogérés.
 +
 https://docs.netapp.com/us-en/astra/index.html["Documentation relative au service après-vente Astra Control"^]
 
@@ -93,24 +93,35 @@ Vous gérez toutes les mises à jour
 +
 ** Amazon EBS
 ** Amazon FSX pour NetApp ONTAP
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
 
 
 * Google Cloud :
 +
 ** Disque persistant Google
 ** NetApp Cloud Volumes Service
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
 
 
 * Microsoft Azure :
 +
 ** Disques gérés Azure
 ** Azure NetApp Files
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
+
+
+* Clusters autogérés
++
+** Amazon EBS
+** Disque persistant Google
+** Disques gérés Azure
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
 
 
 
  a| 
 * Systèmes NetApp ONTAP AFF et FAS
-* Système back-end Cloud Volumes ONTAP
+* link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
 
 
 |===
