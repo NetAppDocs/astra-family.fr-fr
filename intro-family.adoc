@@ -40,8 +40,8 @@ Astra Control offre des fonctionnalités stratégiques pour la gestion du cycle 
 * Création de copies Snapshot et de sauvegardes à la demande intégrant la cohérence applicative
 * Automatisation des opérations de sauvegarde et de snapshots basées sur des règles
 * Migrez des applications et des données d'un cluster Kubernetes vers un autre
-* Cloner une application de la phase intermédiaire à la production
-* Répliquez vos applications sur un système distant grâce à la technologie NetApp SnapMirror
+* Réplication d'applications sur un système distant à l'aide de la technologie NetApp SnapMirror (Astra Control Center)
+* Clonage d'applications de la phase de transfert à la production
 * Visualiser l'état de santé et de protection des applications
 * Implémentation de vos workflows de sauvegarde et de migration à l'aide d'une interface utilisateur web ou d'une API
 
@@ -56,7 +56,7 @@ Astra Control est disponible dans deux modèles de déploiement :
 +
 https://docs.netapp.com/us-en/astra/index.html["Documentation relative au service après-vente Astra Control"^]
 
-* *Astra Control Center* : logiciel autogéré qui assure une gestion des données compatible avec les applications de clusters Kubernetes exécutés dans votre environnement sur site. Astra Control Center peut également être installé avec un système back-end de stockage NetApp Cloud Volumes ONTAP sur Amazon Web Services, Microsoft Azure et Google Cloud Platform (GCP).
+* *Astra Control Center* : logiciel autogéré qui assure une gestion des données compatible avec les applications de clusters Kubernetes exécutés dans votre environnement sur site. Astra Control Center peut également être installé sur plusieurs environnements de fournisseur cloud avec un système back-end de stockage NetApp Cloud Volumes ONTAP.
 +
 https://docs.netapp.com/us-en/astra-control-center/["Documentation Astra Control Center"^]
 
@@ -70,14 +70,14 @@ https://docs.netapp.com/us-en/astra-control-center/["Documentation Astra Control
 | Comment est-elle proposée ?  a| 
 En tant que service cloud entièrement géré de NetApp
  a| 
-Logiciels que vous téléchargez, installez et gérez
+En tant que logiciel que vous téléchargez, installez et gérez
 
 
 
 | Où est-il hébergé ?  a| 
 Dans le cloud public de votre choix
  a| 
-Bring your own cluster Kubernetes
+Sur votre cluster Kubernetes
 
 
 
@@ -110,7 +110,7 @@ Vous gérez toutes les mises à jour
 ** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
 
 
-* Clusters autogérés
+* Clusters autogérés :
 +
 ** Amazon EBS
 ** Disque persistant Google

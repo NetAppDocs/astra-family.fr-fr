@@ -17,7 +17,6 @@
   <block id="0a5245490d6d6f511bbdb3db35acfe54" category="list-text">Création de copies Snapshot et de sauvegardes à la demande intégrant la cohérence applicative</block>
   <block id="f107a6e34d3d0df36d460bc5b3a5fe8b" category="list-text">Automatisation des opérations de sauvegarde et de snapshots basées sur des règles</block>
   <block id="ae3099cc177fc161f80c6965fe89a71a" category="list-text">Migrez des applications et des données d'un cluster Kubernetes vers un autre</block>
-  <block id="f22cb7c9b8713326a930c00edca70cee" category="list-text">Cloner une application de la phase intermédiaire à la production</block>
   <block id="1c26e7db082840fcbfcd87527c92e1aa" category="list-text">Visualiser l'état de santé et de protection des applications</block>
   <block id="6762973af9b127d271f0d2b2aea0bc96" category="section-title">Modèles de déploiement</block>
   <block id="db1905d057dd6fde6f8b7bd6afe60e41" category="paragraph">Astra Control est disponible dans deux modèles de déploiement :</block>
@@ -88,13 +87,14 @@
   <block id="4bce0cadbd95655804d72e0df4ac6d7b" category="list-text">Microsoft Azure :</block>
   <block id="79c9c43a409053927cc323915dbf1c06" category="list-text">Disques gérés Azure</block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="list-text">Azure NetApp Files</block>
-  <block id="5ec023826f488423d711ac0df1d9f4c5" category="list-text">Répliquez vos applications sur un système distant grâce à la technologie NetApp SnapMirror</block>
-  <block id="a3b55d525a2386049955089c958fb85f" category="list-text">*Astra Control Center* : logiciel autogéré qui assure une gestion des données compatible avec les applications de clusters Kubernetes exécutés dans votre environnement sur site. Astra Control Center peut également être installé avec un système back-end de stockage NetApp Cloud Volumes ONTAP sur Amazon Web Services, Microsoft Azure et Google Cloud Platform (GCP).</block>
-  <block id="3f30cc087061fe529429ba0e8d0ff810" category="paragraph">Logiciels que vous téléchargez, installez et gérez</block>
-  <block id="dccc75a2a0dee41efca95ab5f6a92a91" category="paragraph">Bring your own cluster Kubernetes</block>
   <block id="6c4ff7542dcef16bc12bbbab0c160e9a" category="list-text">Implémentation de vos workflows de sauvegarde et de migration à l'aide d'une interface utilisateur web ou d'une API</block>
   <block id="b7372905cd310308af0541e07ef5175f" category="list-text">*Astra Control Service* : service géré par NetApp qui offre une gestion des données compatible avec les applications des clusters Kubernetes dans des environnements de plusieurs fournisseurs cloud ainsi que des clusters Kubernetes autogérés.</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="inline-link-macro">Cloud Volumes ONTAP</block>
   <block id="3be7ceee76706d9dfc15d8f9c233dfb8" category="list-text"><block ref="3be7ceee76706d9dfc15d8f9c233dfb8" category="inline-link-macro-rx"></block></block>
-  <block id="d9e6278e0d2ca01f55d0a29da9caa34f" category="list-text">Clusters autogérés</block>
+  <block id="f7173fff9a92f2bab2648f86282ab07c" category="list-text">Réplication d'applications sur un système distant à l'aide de la technologie NetApp SnapMirror (Astra Control Center)</block>
+  <block id="631928ccc601c8e49976a8d73af28304" category="list-text">Clonage d'applications de la phase de transfert à la production</block>
+  <block id="db7cdbe16748f17a4795bd3e96b798a0" category="list-text">*Astra Control Center* : logiciel autogéré qui assure une gestion des données compatible avec les applications de clusters Kubernetes exécutés dans votre environnement sur site. Astra Control Center peut également être installé sur plusieurs environnements de fournisseur cloud avec un système back-end de stockage NetApp Cloud Volumes ONTAP.</block>
+  <block id="aff53210beade5ba79414ae13eb6b73d" category="paragraph">En tant que logiciel que vous téléchargez, installez et gérez</block>
+  <block id="384c577b472799aa8cd781ce64f2bb34" category="paragraph">Sur votre cluster Kubernetes</block>
+  <block id="55b6146ebe43b01a290a7aad48a66943" category="list-text">Clusters autogérés :</block>
 </blocks>
