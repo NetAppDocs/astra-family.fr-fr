@@ -23,7 +23,7 @@ product-family:
   - title: L'automatisation et les API
     tags: tag_api
   tiles:
-  - title: Découvrez la gamme Astra
+  - title: Découvrez Astra Control
     icon: "./media/Astra_Family_logo_line.png"
     url: intro-family.html
     summary: Découvrez la gamme de produits Astra.
