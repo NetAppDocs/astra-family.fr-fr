@@ -2,54 +2,13 @@
 settings:
   name: Astra Family
   search: astra-control-service,astra-control-center,astra-automation,trident
+  internal:
+    pdf_enabled: false
   prod:
+    pdf_enabled: false
     harmony_enabled: false
   langs: fr-fr,us-en,ja-jp,ko-kr,zh-cn,zh-tw,de-de,es-es,it-it
 sidebar:
   entries:
   - title: Documentation de la gamme de produits Astra
     url: "/index.html"
-  - title: Mentions légales
-    url: "/legal-notices.html"
-product-family:
-  sidebarlinks:
-  - title: Tous les produits
-    tags: tag_application_data_management,tag_storage_management,tag_data_storage,tag_api,tag_get_started
-    class: active
-  - title: Gestion des données applicatives
-    tags: tag_application_data_management
-  - title: Gestion du stockage
-    tags: tag_storage_management
-  - title: L'automatisation et les API
-    tags: tag_api
-  tiles:
-  - title: Découvrez Astra Control
-    icon: "./media/Astra_Family_logo_line.png"
-    url: intro-family.html
-    summary: Découvrez la gamme de produits Astra.
-    tags: all, tag_get_started
-  - title: Service Astra Control
-    icon: "./media/Astra_Control_logo_line.png"
-    url: https://docs.netapp.com/us-en/astra/index.html
-    summary: Utilisez un service géré par NetApp pour la gestion des données avec
-      cohérence applicative des workloads Kubernetes dans les clouds publics.
-    tags: all, tag_application_data_management
-  - title: Centre de contrôle Astra
-    icon: "./media/Astra_Control_logo_line.png"
-    url: https://docs.netapp.com/us-en/astra-control-center/index.html
-    summary: Utilisez un logiciel autogéré pour gérer les données intégrant la cohérence
-      applicative des workloads Kubernetes sur site.
-    tags: all, tag_application_data_management
-  - title: Astra Trident
-    icon: "./media/Astra_Trident_logo_line2.png"
-    url: https://docs.netapp.com/us-en/trident/index.html
-    summary: Utilisez le provisionnement et la gestion du stockage conformes à la
-      directive CSI pour les workloads Kubernetes avec les fournisseurs de stockage
-      NetApp.
-    tags: all, tag_storage_management
-  - title: Automatisation et API Astra
-    icon: "./media/Astra_Family_logo_line.png"
-    url: https://docs.netapp.com/us-en/astra-automation/index.html
-    summary: Utilisez une API et des kits de développement logiciel pour automatiser
-      les workflows Astra dans vos opérations.
-    tags: all, tag_api

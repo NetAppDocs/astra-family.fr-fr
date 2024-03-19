@@ -30,26 +30,11 @@
   <block id="2b93b48daf034e4100d00b85950e109d" category="list-text"><block ref="2b93b48daf034e4100d00b85950e109d" category="inline-link-rx"></block></block>
   <block id="eb75aeb3b4b2b9734ba3e52f5483f0b2" category="inline-link">Documentation ONTAP</block>
   <block id="8217522f2b9eea86f1099a2aba54aebd" category="list-text"><block ref="8217522f2b9eea86f1099a2aba54aebd" category="inline-link-rx"></block></block>
-  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">Les mentions légales donnent accès aux déclarations de copyright, aux marques, aux brevets, etc.</block>
-  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Mentions légales</block>
-  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Droits d'auteur</block>
-  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">Marques déposées</block>
-  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, le logo NETAPP et les marques mentionnées sur la page des marques commerciales NetApp sont des marques commerciales de NetApp, Inc. Les autres noms de sociétés et de produits peuvent être des marques commerciales de leurs propriétaires respectifs.</block>
-  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">Brevets</block>
-  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Vous trouverez une liste actuelle des brevets appartenant à NetApp à l'adresse suivante :</block>
-  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Politique de confidentialité</block>
-  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Source ouverte</block>
-  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">Les fichiers de notification fournissent des informations sur les droits d'auteur et les licences de tiers utilisés dans le logiciel NetApp.</block>
-  <block id="108238230cdf60dd0887f944a8d13493" category="inline-link-macro">Avis de mise à jour de Astra Control Center 21.08</block>
-  <block id="c720f04897a24c86f93ce764015021d4" category="paragraph"><block ref="c720f04897a24c86f93ce764015021d4" category="inline-link-macro-rx"></block></block>
-  <block id="e81b0f8fae224ca0c3d3258b75a989dd" category="section-title">Licence API Astra Control</block>
-  <block id="f7c79ca7f13fd9da78390d5a97db7042" category="paragraph"><block ref="f7c79ca7f13fd9da78390d5a97db7042" category="inline-link-rx"></block></block>
   <block id="2d63f74d9b059520b514097de3c8e2f5" category="sidebar">Documentation de la gamme de produits Astra</block>
   <block id="40dec546414c1ebdfde8d9858f0938c3" category="sidebar">Tous les produits</block>
   <block id="7c5d8433a062d6a740a01339f0496a43" category="sidebar">Gestion des données applicatives</block>
   <block id="bfd15aa26ba0ced782240c4a8b7e517e" category="sidebar">Gestion du stockage</block>
   <block id="4fd0a97eaa9f8d1a9bf7332e22654095" category="sidebar">L'automatisation et les API</block>
-  <block id="506cb50348b89bb82ceaa4bb08e4b2d8" category="sidebar">Découvrez la gamme de produits Astra.</block>
   <block id="a315052239d40dd49d5a66ab5d7c8a1b" category="sidebar">Utilisez un service géré par NetApp pour la gestion des données avec cohérence applicative des workloads Kubernetes dans les clouds publics.</block>
   <block id="f64830a81babe5853a9db001f89c0d1f" category="sidebar">Utilisez un logiciel autogéré pour gérer les données intégrant la cohérence applicative des workloads Kubernetes sur site.</block>
   <block id="e0f4a858a15b865d90b24b46633e2899" category="sidebar">Utilisez le provisionnement et la gestion du stockage conformes à la directive CSI pour les workloads Kubernetes avec les fournisseurs de stockage NetApp.</block>
@@ -65,14 +50,6 @@
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="inline-link-macro">Cloud Volumes ONTAP</block>
   <block id="db7cdbe16748f17a4795bd3e96b798a0" category="list-text">*Astra Control Center* : logiciel autogéré qui assure une gestion des données compatible avec les applications de clusters Kubernetes exécutés dans votre environnement sur site. Astra Control Center peut également être installé sur plusieurs environnements de fournisseur cloud avec un système back-end de stockage NetApp Cloud Volumes ONTAP.</block>
   <block id="384c577b472799aa8cd781ce64f2bb34" category="paragraph">Sur votre cluster Kubernetes</block>
-  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
-  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
-  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
-  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
-  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
-  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
-  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
-  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="35766360770e699f50fa8f51d1c6ff36" category="doc">Découvrez Astra Control</block>
   <block id="9323549177620e1dd794512ee7cc0748" category="paragraph">ASTRA Control est une solution de gestion du cycle de vie des données d'applications Kubernetes qui simplifie les opérations pour les applications avec état et vous aide à stocker, protéger et déplacer vos workloads Kubernetes dans les environnements hybrides et multicloud.</block>
   <block id="82ec2cd6fda87713f588da75c3b1d0ed" category="section-title">Capacités</block>
@@ -137,4 +114,5 @@
   <block id="cd27a1715aac859bc2a48a86ed2000c0" category="inline-link">Longhorn</block>
   <block id="1752f949f63eb1f41cea70be24a2a732" category="list-text"><block ref="1752f949f63eb1f41cea70be24a2a732" category="inline-link-rx"></block></block>
   <block id="00ae925249b1dcd734cdb679b48bf8f7" category="list-text">NetApp ONTAP Select</block>
+  <block id="7f79fef7297469596e52ca65df8b3d0a" category="sidebar">En savoir plus sur Astra Control</block>
 </blocks>
