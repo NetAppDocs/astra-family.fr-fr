@@ -91,7 +91,7 @@ ASTRA Control est basé sur quatre composants complémentaires :
 
 ASTRA Control est disponible dans deux modèles de déploiement.
 
-image:astra-architecture-diagram-v6.png["Modèles de déploiement Astra"]
+image:astra-architecture-diagram-v7.png["Modèles de déploiement Astra"]
 
 * *Astra Control Service* : service géré par NetApp qui offre une gestion des données compatible avec les applications des clusters Kubernetes dans des environnements de plusieurs fournisseurs cloud ainsi que des clusters Kubernetes autogérés.
 +
