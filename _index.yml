@@ -38,7 +38,7 @@ product-family:
       applicative des workloads Kubernetes sur site.
     tags: tag_all, tag_application_data_management
   - title: Astra Trident
-    icon: "./media/Astra-Trident-logo.png"
+    icon: "./media/Astra-Trident-logo2.png"
     url: "../trident/index.html"
     summary: Utilisez le provisionnement et la gestion du stockage conformes à la
       directive CSI pour les workloads Kubernetes avec les fournisseurs de stockage
